@@ -3,6 +3,9 @@ import Navbar from "../Navbar";
 import header from "../../assets/images/farmer.png";
 
 const Header = () => {
+  const handleClick = () => {
+		window.location.href = 'mailto:communications@accessassist.com?subject=Book a Demo&body=I would like to book a demo.'
+	};
   return (
     <div className="w-full md:mt-16 mt-7 md:h-[80vh] h-auto md:px-40 px-5 relative">
       <Navbar />
@@ -15,12 +18,10 @@ const Header = () => {
             Building Intelligent Agri Value Chains
           </div>
           <p className="font-normal text-[#929a9f] md:max-w-[500px] leading-7 mt-4">
-            AgriSarathi, through its intelligent congregation of multiple
-            solutions, steers the agricultural journey of the Indian Farmer
-            through infusion of digitally smart technologies, optimising res
+          AgriSarathi, through its intelligent congregation of multiple solutions, steers the agricultural journey of the Indian Farmer through infusion of digitally smart technologies, optimising resources, enhancing yield and increasing farmers’ income.
           </p>
-          <div className="flex items-center gap-3 bg-[#079449] w-[209px] h-[40px] justify-center cursor-pointer mt-10">
-            <span className="text-white font-medium text-[15px]">Contact</span>
+          <div className="flex items-center gap-3 bg-[#079449] w-[209px] h-[40px] justify-center cursor-pointer mt-10" onClick={handleClick}>
+            <span className="text-white font-medium text-[15px]">Book a Demo</span>
             <ArrowForward color="#fff" />
           </div>
         </div>
