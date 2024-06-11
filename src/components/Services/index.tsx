@@ -43,9 +43,9 @@ const Services = () => {
                 {service.title}
               </span>
               <p className="text-[#929a9f] leading-7"> {service.desc} </p>
-              <a href="#" className="text-[#079449] font-medium z-50">
+              {/* <a href="#" className="text-[#079449] font-medium z-50">
                 Learn More
-              </a>
+              </a> */}
             </div>
           );
         })}
