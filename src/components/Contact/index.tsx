@@ -13,7 +13,7 @@ const Contact = () => {
 					eaque consectetur ullam pariatur, itaque adipisci beatae molestiae repudiandae
 					corrupti eos, odio neque perspiciatis ratione dignissimos voluptas
 				</p>
-				<div className="flex items-center gap-3 bg-[#ff9900] px-5 w-fit h-[40px] justify-center cursor-pointer mt-5">
+				<div className="flex items-center gap-3 bg-[#079449] px-5 w-fit h-[40px] justify-center cursor-pointer mt-5">
 					<span className="font-medium text-white text-[15px]">Book an Appointment</span>
 					<ArrowForward color="#fff" />
 				</div>

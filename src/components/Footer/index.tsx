@@ -1,4 +1,4 @@
-import logoWhite from "../../assets/images/logoWhite.png";
+import logoWhite from "../../assets/images/logo.png";
 const Footer = () => {
 	const navLinks = [
 		{ title: "Home", path: "/", active: true },
@@ -12,6 +12,7 @@ const Footer = () => {
 			<img
 				src={logoWhite}
 				alt="logo"
+				style={{width:"300px"}}
 			/>
 			<div className="flex items-center gap-5">
 				{navLinks.map((link) => {

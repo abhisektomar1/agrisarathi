@@ -23,7 +23,7 @@ const Navbar = () => {
 							href={link.path}
 							className={`${
 								link.active
-									? "text-[#ff9900] border-[#ff9900]"
+									? "text-[#079449] border-[#079449]"
 									: "text-[#263640] border-transparent"
 							} font-semibold text-[15px] no-underline border-b-2 py-1`}
 							key={link.title}
@@ -33,7 +33,7 @@ const Navbar = () => {
 					);
 				})}
 			</div>
-			<div className="flex items-center gap-3 bg-[#ff9900] py-2 px-4 cursor-pointer">
+			<div className="flex items-center gap-3 bg-[#079449] py-2 px-4 cursor-pointer">
 				<span className="text-white font-medium text-[15px]">Contact</span>
 				<MailOutline color={"#fff"} />
 			</div>
