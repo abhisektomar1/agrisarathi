@@ -10,7 +10,7 @@ const Contact = () => {
 				</div>
 				<p className="leading-7 text-[#929a9f] max-w-[550px] mt-2 text-justify">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi soluta, dolor
-					eaque consectetur ullam pariatur, itaque adipisci beatae molestiae repudiandae
+					eaque consectetur ullfghyam pariatur, itaque adipisci beatae molestiae repudiandae
 					corrupti eos, odio neque perspiciatis ratione dignissimos voluptas
 				</p>
 				<div className="flex items-center gap-3 bg-[#079449] px-5 w-fit h-[40px] justify-center cursor-pointer mt-5">
