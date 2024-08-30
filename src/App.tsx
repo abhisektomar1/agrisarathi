@@ -1,19 +1,17 @@
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Services from "./components/Services";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing from "./components/Landing";
+import PrivacyPolicy from "./components/privacyPolicy";
+
 
 const App = () => {
-	return (
-		<div className="w-full h-full flex flex-col relative box-border">
-			<Header />
-			<Services />
-			<Blog />
-			<Contact />
-			<Footer />
-		</div>
-	);
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+		<Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;
